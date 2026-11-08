@@ -46,7 +46,7 @@ import InstructorStudents from './MainPage/instructor/InstructorStudents'
 import PaymentCancelled from "./payment/PaymentCancelled";
 import PaymentSuccess from "./payment/PaymentSuccess";
 import PaymentFailed from "./payment/PaymentFailed";
-import PaymentHistory from "./Mainpage/PaymentHistory";
+import PaymentHistory from "./MainPage/PaymentHistory";
 import VoiceAssistant from "./components/VoiceAssistant/VoiceAssistant";
 
 function App() {
