@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction To Programming",
+    "image": "https://i.ibb.co.com/fdpfLrxT/course-1.jpg",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Data Structures & Algorithms",
+    "image": "https://i.ibb.co.com/Mk3H0fdP/course-2.jpg",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "image": "https://i.ibb.co.com/wr6X00QD/course-3.jpg",
+    "rating": 5
+  }
+]

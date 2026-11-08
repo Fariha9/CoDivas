@@ -1,0 +1,68 @@
+[
+  {
+    "id": "assign-programming",
+    "title": "Intro to Programming: Logic Building",
+    "topic": "Intro to Programming",
+    "totalMarks": 30,
+    "prompt": "Write a program that takes an integer array from the user and finds the second largest number without using any built-in sorting functions. Upload your clean source code file (.py, .cpp, or .c).",
+    "questions": [
+      "1. What is the difference between compiler and interpreter in terms of code execution?",
+      "2. Explain how a recursive function utilizes the system stack memory."
+    ]
+  },
+  {
+    "id": "assign-dsa",
+    "title": "Data Structures & Algorithms: Queue Implementation",
+    "topic": "Data Structures & Algorithms",
+    "totalMarks": 40,
+    "prompt": "Implement a standard Queue data structure using two Stacks (LIFO pattern). Ensure both Enqueue and Dequeue operations are handled efficiently. Upload your source code file.",
+    "questions": [
+      "1. Compare the time complexities of Quick Sort and Merge Sort in their worst-case scenarios.",
+      "2. Why is a Linked List preferred over a Dynamic Array when frequent insertions occur at the beginning?"
+    ]
+  },
+  {
+    "id": "assign-web",
+    "title": "Web Development: Responsive Layout & DOM",
+    "topic": "Web Development",
+    "totalMarks": 50,
+    "prompt": "Create a semantic HTML5 page layout featuring a grid-based card view that dynamically updates its content using JavaScript DOM manipulation. Zip your HTML, CSS, and JS files together and upload.",
+    "questions": [
+      "1. What is the difference between localStorage and sessionStorage in browser storage?",
+      "2. Explain the CSS Box Model and how box-sizing: border-box alters it."
+    ]
+  },
+  {
+    "id": "assign-js",
+    "title": "JavaScript Mastery: Asynchronous JS Task",
+    "topic": "JavaScript Mastery",
+    "totalMarks": 35,
+    "prompt": "Write a script that fetches user profile data from a placeholder API using Async/Await, handles network errors gracefully with try-catch, and maps the data to the UI. Submit your .js script.",
+    "questions": [
+      "1. What is the difference between '==' and '===' operators in JavaScript?",
+      "2. Explain the concept of JavaScript Closures with a practical use-case."
+    ]
+  },
+  {
+    "id": "assign-ai",
+    "title": "Artificial Intelligence: State Space Search",
+    "topic": "Artificial Intelligence",
+    "totalMarks": 40,
+    "prompt": "Implement the A* Search Algorithm to find the shortest path on a given grid map with static obstacles. Submit your Python script or Jupyter Notebook (.ipynb) containing the heuristic function logic.",
+    "questions": [
+      "1. What is the main difference between Informed (Heuristic) and Uninformed Search strategies?",
+      "2. Briefly explain the concept of Turing Test and its significance in AI evaluation."
+    ]
+  },
+  {
+    "id": "assign-ml",
+    "title": "Machine Learning: Linear Regression Model",
+    "topic": "Machine Learning",
+    "totalMarks": 45,
+    "prompt": "Load a sample housing dataset, perform basic data preprocessing (handling missing values, feature scaling), and train a Linear Regression model. Upload your Jupyter Notebook (.ipynb) with evaluation metrics (MSE/R2 Score).",
+    "questions": [
+      "1. Explain the fundamental difference between Supervised and Unsupervised Learning.",
+      "2. What is Overfitting in Machine Learning, and how can regularization methods help mitigate it?"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "pic":"https://i.ibb.co.com/fdpfLrxT/course-1.jpg",
+        "name":"Introduction To Programming",
+        "page":"/courses/Programming"
+    },
+    {
+        "id": 2,
+        "pic":"https://i.ibb.co.com/Mk3H0fdP/course-2.jpg",
+        "name":"Data Structures & Algorithms",
+        "page":"/courses/DS"
+    },
+    {
+        "id": 3,
+        "pic":"https://i.ibb.co.com/wr6X00QD/course-3.jpg",
+        "name":"Web Development",
+        "page":"/courses/Web"
+    },
+    {
+        "id": 4,
+        "pic":"https://i.ibb.co.com/Q7FpGFMh/course-4.jpg",
+        "name":"Javascript",
+        "page":"/courses/JS"
+    },
+    {
+        "id": 5,
+        "pic":"https://i.ibb.co.com/j9LZrv57/course-4.jpg",
+        "name":"Artificial Intelligence",
+        "page":"/courses/AI"
+    },
+    {
+        "id": 6,
+        "pic":"https://i.ibb.co.com/99mhHGh4/course-6.jpg",
+        "name":"Machine Learning",
+        "page":"/courses/ML"
+    }
+]

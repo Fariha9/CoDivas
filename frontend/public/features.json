@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Interactive Learning",
+    "description": "Hands-on coding exercises, quizzes, and visual explanations to solidify your understanding.",
+    "icon": ""
+  },
+  {
+    "title": "Beginner-Friendly",
+    "description": "Concepts broken into easy-to-understand modules for students starting their CS journey.",
+    "icon": ""
+  },
+  {
+    "title": "Real CS Content",
+    "description": "Data Structures, Algorithms, DBMS, and more — everything a CS student needs.",
+    "icon": ""
+  },
+  {
+    "title": "Community Driven",
+    "description": "Learn together, solve challenges, and share knowledge with fellow students.",
+    "icon": ""
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction To Programming",
+    "description": "Basic programming concepts and problem solving.",
+    "image": "https://i.ibb.co/1Gb3rMrL/Introduction-To-Programming.webp",
+    "lessons": [
+      {
+        "title": "Lesson 1 Test",
+        "questions": [
+          {"q":"What is programming?","options":["Giving instructions to a computer","Browsing the internet","Watching videos","None"],"answer":"Giving instructions to a computer"},
+          {"q":"Which is a programming language?","options":["Python","MS Word","HTML","CSS"],"answer":"Python"},
+          {"q":"What is an algorithm?","options":["Step-by-step solution","Random guess","Error","Hardware"],"answer":"Step-by-step solution"},
+          {"q":"Programming is mainly used to?","options":["Solve problems","Design posters","Send emails","Play games"],"answer":"Solve problems"},
+          {"q":"Which symbol assigns value?","options":["=","==","!=","<"],"answer":"="}
+        ]
+      },
+      {
+        "title": "Lesson 2 Test",
+        "questions": [
+          {"q":"What is a variable?","options":["Data storage","Function","Loop","Operator"],"answer":"Data storage"},
+          {"q":"Which stores text?","options":["String","Integer","Boolean","Float"],"answer":"String"},
+          {"q":"True/False is called?","options":["Boolean","Integer","String","Char"],"answer":"Boolean"},
+          {"q":"Which is valid variable name?","options":["totalMarks","2num","my-name","class"],"answer":"totalMarks"},
+          {"q":"Variables help to?","options":["Store data","Design UI","Compile code","Debug"],"answer":"Store data"}
+        ]
+      },
+      {
+        "title": "Lesson 3 Test",
+        "questions": [
+          {"q":"What is debugging?","options":["Finding errors","Writing code","Running program","Designing UI"],"answer":"Finding errors"},
+          {"q":"Which is logical operator?","options":["&&","=","+","%"],"answer":"&&"},
+          {"q":"Compiler is used to?","options":["Translate code","Store data","Design UI","Run browser"],"answer":"Translate code"},
+          {"q":"Programming improves?","options":["Logical thinking","Drawing skill","Typing speed","Gaming"],"answer":"Logical thinking"},
+          {"q":"Which is a condition?","options":["if","for","print","input"],"answer":"if"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Data Structures & Algorithms",
+    "description": "Organizing data and solving problems efficiently.",
+    "image": "https://i.ibb.co.com/jPFQfSgt/Data-Structures-Algorithms.png",
+    "lessons": [
+      {
+        "title": "Lesson 1 Test",
+        "questions": [
+          {"q":"What is a data structure?","options":["Way to organize data","Algorithm","Language","Compiler"],"answer":"Way to organize data"},
+          {"q":"Which is linear structure?","options":["Array","Tree","Graph","Map"],"answer":"Array"},
+          {"q":"Stack follows?","options":["LIFO","FIFO","Random","None"],"answer":"LIFO"},
+          {"q":"Queue follows?","options":["FIFO","LIFO","Random","None"],"answer":"FIFO"},
+          {"q":"Hash table stores?","options":["Key-value pairs","Only keys","Only values","Numbers"],"answer":"Key-value pairs"}
+        ]
+      },
+      {
+        "title": "Lesson 2 Test",
+        "questions": [
+          {"q":"What is an algorithm?","options":["Step-by-step process","Data","Variable","Loop"],"answer":"Step-by-step process"},
+          {"q":"Binary search needs?","options":["Sorted array","Unsorted array","Stack","Queue"],"answer":"Sorted array"},
+          {"q":"Bubble sort is?","options":["Simple but slow","Fastest","Recursive","Complex"],"answer":"Simple but slow"},
+          {"q":"O(n) means?","options":["Linear time","Constant time","Quadratic","Log time"],"answer":"Linear time"},
+          {"q":"Which sorting is faster?","options":["Quick sort","Bubble sort","Insertion sort","Selection sort"],"answer":"Quick sort"}
+        ]
+      },
+      {
+        "title": "Lesson 3 Test",
+        "questions": [
+          {"q":"Tree is which type?","options":["Non-linear","Linear","Static","Simple"],"answer":"Non-linear"},
+          {"q":"Graph has?","options":["Nodes and edges","Only nodes","Only edges","Arrays"],"answer":"Nodes and edges"},
+          {"q":"Recursion means?","options":["Function calling itself","Loop","Condition","Array"],"answer":"Function calling itself"},
+          {"q":"Which uses less memory?","options":["Array","Linked list","Tree","Graph"],"answer":"Array"},
+          {"q":"DSA improves?","options":["Efficiency","Design","Color","Animation"],"answer":"Efficiency"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "description": "Building and designing websites.",
+    "image": "https://i.ibb.co/jZ8RctmN/Web-Development.png",
+    "lessons": [
+      {
+        "title": "Lesson 1 Test",
+        "questions": [
+          {"q":"HTML is used for?","options":["Structure","Styling","Logic","Database"],"answer":"Structure"},
+          {"q":"CSS is used for?","options":["Styling","Logic","Database","Server"],"answer":"Styling"},
+          {"q":"JavaScript is used for?","options":["Interactivity","Design","Structure","Database"],"answer":"Interactivity"},
+          {"q":"Which tag creates link?","options":["<a>","<p>","<img>","<div>"],"answer":"<a>"},
+          {"q":"Which tag adds image?","options":["<img>","<src>","<pic>","<a>"],"answer":"<img>"}
+        ]
+      },
+      {
+        "title": "Lesson 2 Test",
+        "questions": [
+          {"q":"Responsive design means?","options":["Works on all devices","Colorful site","Fast server","Animated UI"],"answer":"Works on all devices"},
+          {"q":"Which unit is responsive?","options":["%","px","cm","in"],"answer":"%"},
+          {"q":"Flexbox is used for?","options":["Layout","Database","Animation","Security"],"answer":"Layout"},
+          {"q":"CSS stands for?","options":["Cascading Style Sheets","Creative Style System","Color Sheet","None"],"answer":"Cascading Style Sheets"},
+          {"q":"Media query is used for?","options":["Screen size","Animation","Fonts","Security"],"answer":"Screen size"}
+        ]
+      },
+      {
+        "title": "Lesson 3 Test",
+        "questions": [
+          {"q":"Frontend includes?","options":["HTML, CSS, JS","Database","Server","API"],"answer":"HTML, CSS, JS"},
+          {"q":"DOM stands for?","options":["Document Object Model","Data Object Model","Design Object Model","None"],"answer":"Document Object Model"},
+          {"q":"Browser executes?","options":["JavaScript","Python","C++","Java"],"answer":"JavaScript"},
+          {"q":"Web dev focuses on?","options":["User experience","Hardware","OS","Compiler"],"answer":"User experience"},
+          {"q":"Website runs on?","options":["Browser","Compiler","OS","Database"],"answer":"Browser"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "JavaScript",
+    "description": "Core concepts of JavaScript programming.",
+    "image": "https://i.ibb.co.com/XZ1hkWnt/Java-Script.png",
+    "lessons": [
+      {
+        "title": "Lesson 1 Test",
+        "questions": [
+          {"q":"JavaScript is a?","options":["Scripting language","Markup language","Database","OS"],"answer":"Scripting language"},
+          {"q":"Which declares variable?","options":["let","print","echo","varname"],"answer":"let"},
+          {"q":"Which outputs to console?","options":["console.log()","print()","alertBox()","write()"],"answer":"console.log()"},
+          {"q":"JS runs in?","options":["Browser","Compiler","Database","Server only"],"answer":"Browser"},
+          {"q":"Which is correct?","options":["==","=","!=","All"],"answer":"=="}
+        ]
+      },
+      {
+        "title": "Lesson 2 Test",
+        "questions": [
+          {"q":"Array is used to?","options":["Store multiple values","Store one value","Loop","Condition"],"answer":"Store multiple values"},
+          {"q":"Which loop repeats code?","options":["for","if","switch","break"],"answer":"for"},
+          {"q":"Function is used to?","options":["Reuse code","Style page","Store data","Debug"],"answer":"Reuse code"},
+          {"q":"Which is event?","options":["click","var","function","loop"],"answer":"click"},
+          {"q":"Which keyword stops loop?","options":["break","stop","exit","end"],"answer":"break"}
+        ]
+      },
+      {
+        "title": "Lesson 3 Test",
+        "questions": [
+          {"q":"DOM is used to?","options":["Manipulate HTML","Store data","Compile code","Run server"],"answer":"Manipulate HTML"},
+          {"q":"Which method selects element?","options":["getElementById","queryDB","fetchData","connect"],"answer":"getElementById"},
+          {"q":"JS can change?","options":["HTML & CSS","Database","OS","Hardware"],"answer":"HTML & CSS"},
+          {"q":"Which is async?","options":["fetch()","alert()","console.log()","var"],"answer":"fetch()"},
+          {"q":"JS improves?","options":["Interactivity","Design","Color","Structure"],"answer":"Interactivity"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Artificial Intelligence",
+    "description": "Basics of intelligent machines and systems.",
+    "image": "https://i.ibb.co.com/fY4qvwrW/Artificial-Intelligence.jpg",
+    "lessons": [
+      {
+        "title": "Lesson 1 Test",
+        "questions": [
+          {"q":"AI stands for?","options":["Artificial Intelligence","Automated Input","Advanced Internet","None"],"answer":"Artificial Intelligence"},
+          {"q":"AI mimics?","options":["Human intelligence","Hardware","OS","Compiler"],"answer":"Human intelligence"},
+          {"q":"Which is AI application?","options":["Chatbot","Calculator","Text editor","Notepad"],"answer":"Chatbot"},
+          {"q":"AI mainly uses?","options":["Data","Paper","Keyboard","Monitor"],"answer":"Data"},
+          {"q":"AI helps in?","options":["Decision making","Typing","Drawing","Printing"],"answer":"Decision making"}
+        ]
+      },
+      {
+        "title": "Lesson 2 Test",
+        "questions": [
+          {"q":"Machine learning is part of?","options":["AI","DBMS","OS","Networking"],"answer":"AI"},
+          {"q":"Which learns from data?","options":["ML","HTML","CSS","C"],"answer":"ML"},
+          {"q":"Supervised learning needs?","options":["Labeled data","No data","Random data","Hardware"],"answer":"Labeled data"},
+          {"q":"Which is example of AI?","options":["Self-driving car","Printer","Scanner","Monitor"],"answer":"Self-driving car"},
+          {"q":"AI focuses on?","options":["Automation","Typing","Design","Gaming"],"answer":"Automation"}
+        ]
+      },
+      {
+        "title": "Lesson 3 Test",
+        "questions": [
+          {"q":"AI is used in?","options":["Healthcare","Education","Robotics","All"],"answer":"All"},
+          {"q":"Natural language means?","options":["Human language","Binary","Code","Signals"],"answer":"Human language"},
+          {"q":"AI needs large?","options":["Data","Paper","Ink","Memory only"],"answer":"Data"},
+          {"q":"AI improves?","options":["Efficiency","Color","Layout","Font"],"answer":"Efficiency"},
+          {"q":"AI future is?","options":["Growing","Ending","Useless","Fixed"],"answer":"Growing"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Machine Learning",
+    "description": "Teaching machines to learn from data.",
+    "image": "https://i.ibb.co/d4xsTfhQ/Machine-Learning.png",
+    "lessons": [
+      {
+        "title": "Lesson 1 Test",
+        "questions": [
+          {"q":"Machine Learning is?","options":["Learning from data","Manual coding","Database","Hardware"],"answer":"Learning from data"},
+          {"q":"ML is subset of?","options":["AI","OS","DBMS","Networking"],"answer":"AI"},
+          {"q":"Which is ML example?","options":["Recommendation system","Calculator","Notepad","Compiler"],"answer":"Recommendation system"},
+          {"q":"ML needs?","options":["Data","Paper","Keyboard","Printer"],"answer":"Data"},
+          {"q":"ML helps to?","options":["Predict","Type","Design","Print"],"answer":"Predict"}
+        ]
+      },
+      {
+        "title": "Lesson 2 Test",
+        "questions": [
+          {"q":"Supervised learning uses?","options":["Labeled data","No data","Random data","Hardware"],"answer":"Labeled data"},
+          {"q":"Unsupervised learning finds?","options":["Patterns","Errors","Files","Bugs"],"answer":"Patterns"},
+          {"q":"Regression predicts?","options":["Images","Numbers","Text","Sound"],"answer":"Numbers"},
+          {"q":"Classification predicts?","options":["Categories","Numbers","Speed","Time"],"answer":"Categories"},
+          {"q":"ML model is?","options":["Trained program","OS","Compiler","Database"],"answer":"Trained program"}
+        ]
+      },
+      {
+        "title": "Lesson 3 Test",
+        "questions": [
+          {"q":"Overfitting means?","options":["Too much training","No training","Good model","Fast model"],"answer":"Too much training"},
+          {"q":"Accuracy measures?","options":["Correct predictions","Speed","Size","Color"],"answer":"Correct predictions"},
+          {"q":"Training data is used to?","options":["Learn patterns","Test model","Deploy app","Design UI"],"answer":"Learn patterns"},
+          {"q":"Testing data is used to?","options":["Evaluate model","Train model","Store data","Clean data"],"answer":"Evaluate model"},
+          {"q":"ML improves?","options":["Prediction","Design","Font","Animation"],"answer":"Prediction"}
+        ]
+      }
+    ]
+  }
+]

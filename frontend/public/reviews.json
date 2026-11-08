@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "role": "CSE Student",
+    "review": "Codivas helped me finally understand DSA concepts clearly. The quizzes are addictive!",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Tanvir Ahmed",
+    "role": "Web Developer",
+    "review": "The structured courses and clean UI make learning feel less overwhelming.",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "role": "Beginner Programmer",
+    "review": "I love how beginner-friendly everything is. Perfect for students like me.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Arifa Jahan",
+    "role": "Competitive Programmer",
+    "review": "The structured courses and clean UI make learning feel less overwhelming.",
+    "rating": 5
+  }
+
+]
