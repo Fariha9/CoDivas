@@ -30,7 +30,7 @@ const MyCourses = () => {
           return;
         }
 
-        const response = await fetch("http://localhost:5001/api/enrollments/my-courses", {
+        const response = await fetch("https://codivas.onrender.com/api/enrollments/my-courses", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -68,7 +68,7 @@ const MyCourses = () => {
           const coursesWithProgress = await Promise.all(
             formattedCourses.map(async (course) => {
               try {
-                const progRes = await fetch(`http://localhost:5001/api/progress/${course.id}`, {
+                const progRes = await fetch(`https://codivas.onrender.com/api/progress/${course.id}`, {
                   headers: { Authorization: `Bearer ${token}` }
                 });
                 

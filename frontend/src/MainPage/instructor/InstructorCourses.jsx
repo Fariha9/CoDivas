@@ -14,7 +14,7 @@ const InstructorCourses = () => {
   const fetchMyCourses = async () => {
     try {
       const token = localStorage.getItem("token");
-      const res = await fetch("http://localhost:5001/api/instructor/courses", {
+      const res = await fetch("https://codivas.onrender.com/api/instructor/courses", {
         headers: { Authorization: `Bearer ${token}` },
       });
       const data = await res.json();
@@ -31,7 +31,7 @@ const InstructorCourses = () => {
     try {
       const token = localStorage.getItem("token");
       const res = await fetch(
-        `http://localhost:5001/api/instructor/courses/${id}`,
+        `https://codivas.onrender.com/api/instructor/courses/${id}`,
         {
           method: "DELETE",
           headers: { Authorization: `Bearer ${token}` },

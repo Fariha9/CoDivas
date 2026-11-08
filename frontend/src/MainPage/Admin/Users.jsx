@@ -14,7 +14,7 @@ const Users = () => {
   const fetchUsers = async () => {
     try {
       const token = localStorage.getItem("token");
-      const res = await fetch("http://localhost:5001/api/admin/stats", {
+      const res = await fetch("https://codivas.onrender.com/api/admin/stats", {
         headers: { Authorization: `Bearer ${token}` },
       });
       const data = await res.json();
@@ -30,7 +30,7 @@ const Users = () => {
   const handleDelete = async (id) => {
     try {
       const token = localStorage.getItem("token");
-      const res = await fetch(`http://localhost:5001/api/admin/user/${id}`, {
+      const res = await fetch(`https://codivas.onrender.com/api/admin/user/${id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -46,7 +46,7 @@ const Users = () => {
   const handleUpgrade = async (id) => {
     try {
       const token = localStorage.getItem("token");
-      const res = await fetch(`http://localhost:5001/api/admin/upgrade/${id}`, {
+      const res = await fetch(`https://codivas.onrender.com/api/admin/upgrade/${id}`, {
         method: "PUT",
         headers: { Authorization: `Bearer ${token}` },
       });

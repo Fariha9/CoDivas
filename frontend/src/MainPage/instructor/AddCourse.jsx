@@ -40,7 +40,7 @@ const token=localStorage.getItem("token");
 
 
 const res=await fetch(
-"http://localhost:5001/api/courses",
+"https://codivas.onrender.com/api/courses",
 {
 method:"POST",
 

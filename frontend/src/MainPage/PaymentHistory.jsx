@@ -13,7 +13,7 @@ const PaymentHistory = () => {
         const token = localStorage.getItem("token");
 
 const res = await axios.get(
-  "http://localhost:5001/api/payment/history",
+  "https://codivas.onrender.com/api/payment/history",
   {
     headers: {
       Authorization: `Bearer ${token}`,

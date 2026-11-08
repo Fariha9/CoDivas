@@ -16,7 +16,7 @@ const CourseReview = ({ courseId }) => {
     try {
 
       const res = await fetch(
-        `http://localhost:5001/api/reviews/${courseId}`
+        `https://codivas.onrender.com/api/reviews/${courseId}`
       );
 
       const data = await res.json();
@@ -61,7 +61,7 @@ const CourseReview = ({ courseId }) => {
 
 
       const res = await fetch(
-        "http://localhost:5001/api/reviews",
+        "https://codivas.onrender.com/api/reviews",
         {
 
           method:"POST",

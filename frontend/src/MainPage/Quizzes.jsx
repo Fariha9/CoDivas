@@ -27,7 +27,7 @@ const Quizzes = () => {
 
   const saveResultToDB = async (finalScore) => {
     try {
-      await fetch("http://localhost:5001/api/quiz-submissions/submit", {
+      await fetch("https://codivas.onrender.com/api/quiz-submissions/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

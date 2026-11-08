@@ -27,11 +27,11 @@ const UploadMaterial = () => {
 
     if (activeTab === "pdf") {
       formData.append("file", file);
-      endpoint = "http://localhost:5001/api/materials/upload";
+      endpoint = "https://codivas.onrender.com/api/materials/upload";
     } else {
       // Must match videoUpload.single("video") in your lectureRoutes.js
       formData.append("video", file);
-      endpoint = "http://localhost:5001/api/lectures/upload";
+      endpoint = "https://codivas.onrender.com/api/lectures/upload";
     }
 
     try {

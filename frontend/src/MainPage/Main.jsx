@@ -10,7 +10,7 @@ import Assignments from './Assignments';
 import GradingPanel from './GradingPanel';
 import CertificateGenerator from './CertificateGenerator';
 
-// মেইন রুট ডিরেক্টরি থেকে অ্যাসেসমেন্ট ইমপোর্ট
+
 import Assessments from './Assessments'; 
 
 const Main = () => {

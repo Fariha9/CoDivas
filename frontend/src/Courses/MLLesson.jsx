@@ -29,7 +29,7 @@ const MLLesson = () => {
     const token = localStorage.getItem("token");
     if (!token) return;
     try {
-      const res = await fetch(`http://localhost:5001/api/progress/${courseId}`, {
+      const res = await fetch(`https://codivas.onrender.com/api/progress/${courseId}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -48,7 +48,7 @@ const MLLesson = () => {
     const token = localStorage.getItem("token");
     if (!token) return;
     try {
-      await fetch(`http://localhost:5001/api/progress/update`, {
+      await fetch(`https://codivas.onrender.com/api/progress/update`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -69,14 +69,14 @@ const MLLesson = () => {
   useEffect(() => {
     const fetchContent = async () => {
       try {
-        const resMat = await fetch(`http://localhost:5001/api/materials/${courseId}`);
+        const resMat = await fetch(`https://codivas.onrender.com/api/materials/${courseId}`);
         if (resMat.ok) setMaterials(await resMat.json());
 
-        const resLect = await fetch(`http://localhost:5001/api/lectures/${courseId}`);
+        const resLect = await fetch(`https://codivas.onrender.com/api/lectures/${courseId}`);
         if (resLect.ok) setLectures(await resLect.json());
         
         // Fetch live classes
-        const resLive = await fetch(`http://localhost:5001/api/live-classes/${courseId}`);
+        const resLive = await fetch(`https://codivas.onrender.com/api/live-classes/${courseId}`);
         if (resLive.ok) setLiveClasses(await resLive.json());
         
         fetchProgress();
@@ -200,7 +200,7 @@ const MLLesson = () => {
                         <span className="text-white text-sm font-medium">{material.title}</span>
                       </div>
                       <a
-                        href={`http://localhost:5001/uploads/materials/${material.file}`}
+                        href={`https://codivas.onrender.com/uploads/materials/${material.file}`}
                         target="_blank"
                         rel="noreferrer"
                         className="bg-purple-600 hover:bg-purple-500 text-white px-4 py-2 rounded-lg flex items-center gap-2 text-xs font-bold transition-colors"
@@ -232,7 +232,7 @@ const MLLesson = () => {
                           controlsList="nodownload"
                         >
                           <source 
-                            src={`http://localhost:5001/uploads/lectures/${lecture.videoFile}`} 
+                            src={`https://codivas.onrender.com/uploads/lectures/${lecture.videoFile}`} 
                             type="video/mp4" 
                           />
                           Browser streaming unsupported.

@@ -13,7 +13,7 @@ const InstructorStudents = () => {
   const fetchStudents = async () => {
     try {
       const token = localStorage.getItem("token");
-      const res = await fetch("http://localhost:5001/api/instructor/students", {
+      const res = await fetch("https://codivas.onrender.com/api/instructor/students", {
         headers: { Authorization: `Bearer ${token}` },
       });
       const data = await res.json();

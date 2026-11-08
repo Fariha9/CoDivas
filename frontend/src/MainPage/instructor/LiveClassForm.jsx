@@ -34,7 +34,7 @@ const LiveClassForm = () => {
         scheduledAt: new Date(`${formData.date}T${formData.time}:00`),
       };
 
-      const res = await fetch("http://localhost:5001/api/live-classes/create", {
+      const res = await fetch("https://codivas.onrender.com/api/live-classes/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

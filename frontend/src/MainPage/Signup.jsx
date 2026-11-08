@@ -7,7 +7,7 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API = "http://localhost:5001";
+  const API = "https://codivas.onrender.com";
 
   const handleSignup = async (e) => {
     e.preventDefault();

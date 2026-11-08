@@ -21,7 +21,7 @@ const Dashboard = () => {
         }
 
         // 1. Fetch user profile
-        const response = await fetch("http://localhost:5001/api/user/me", {
+        const response = await fetch("https://codivas.onrender.com/api/user/me", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -39,7 +39,7 @@ const Dashboard = () => {
         localStorage.setItem("user_email", data.user.email);
 
         // 2. Fetch permanently enrolled courses from MongoDB
-        const coursesResponse = await fetch("http://localhost:5001/api/enrollments/my-courses", {
+        const coursesResponse = await fetch("https://codivas.onrender.com/api/enrollments/my-courses", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

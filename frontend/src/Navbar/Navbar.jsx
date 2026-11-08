@@ -36,7 +36,7 @@ const Navbar = ({cart = []}) => {
     }
 
    const response = await axios.post(
-  "http://localhost:5001/api/payment/initiate",
+  "https://codivas.onrender.com/api/payment/initiate",
   {
     courses: cart.map(course => course.id),
   },
@@ -64,7 +64,7 @@ const Navbar = ({cart = []}) => {
             const token = localStorage.getItem("token");
             if (!token) return;
             try {
-                const res = await fetch("http://localhost:5001/api/notifications", {
+                const res = await fetch("https://codivas.onrender.com/api/notifications", {
                     headers: { Authorization: `Bearer ${token}` }
                 });
                 const data = await res.json();

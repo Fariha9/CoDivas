@@ -18,7 +18,7 @@ const AdminDashboard = () => {
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-      `http://localhost:5001/api/admin/upgrade/${id}`,
+      `https://codivas.onrender.com/api/admin/upgrade/${id}`,
       {
         method: "PUT",
         headers: {
@@ -53,7 +53,7 @@ const AdminDashboard = () => {
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-      `http://localhost:5001/api/admin/user/${id}`,
+      `https://codivas.onrender.com/api/admin/user/${id}`,
       {
         method: "DELETE",
         headers: {
@@ -85,7 +85,7 @@ const AdminDashboard = () => {
       return;
     }
 
-    const response = await fetch("http://localhost:5001/api/admin/stats", {
+    const response = await fetch("https://codivas.onrender.com/api/admin/stats", {
       headers: { Authorization: `Bearer ${token}` },
     });
 

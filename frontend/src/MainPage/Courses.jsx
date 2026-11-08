@@ -51,7 +51,7 @@ const Courses = () => {
 
     useEffect(() => {
 
-  fetch("http://localhost:5001/api/courses")
+  fetch("https://codivas.onrender.com/api/courses")
     .then(res => res.json())
     .then(data => {
       setCourses(data);

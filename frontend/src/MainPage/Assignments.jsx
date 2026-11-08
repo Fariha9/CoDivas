@@ -20,7 +20,7 @@ const Assignments = () => {
   const [selectedFile, setSelectedFile] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:5001/api/assignments')
+    fetch('https://codivas.onrender.com/api/assignments')
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch assignments from database");
         return res.json();
@@ -77,7 +77,7 @@ const Assignments = () => {
     formData.append("file", selectedFile);
 
     try {
-      const response = await fetch('http://localhost:5001/api/submissions', {
+      const response = await fetch('https://codivas.onrender.com/api/submissions', {
         method: 'POST',
         body: formData,
       });

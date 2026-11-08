@@ -24,7 +24,7 @@ const InstructorDashboard = () => {
           return;
         }
 
-        const response = await fetch("http://localhost:5001/api/instructor/stats", {
+        const response = await fetch("https://codivas.onrender.com/api/instructor/stats", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
