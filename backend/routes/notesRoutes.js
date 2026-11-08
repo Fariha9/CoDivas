@@ -20,8 +20,6 @@ router.delete("/:id", protect, deleteNote);
 
 export default router;
 
-// mongodb+srv://farihaniga1_db_user:5Pv9Aiyxw8yQIpDQ@cluster0.1usk5uq.mongodb.net/?appName=Cluster0
-
 
 
 
