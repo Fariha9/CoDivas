@@ -41,7 +41,7 @@ import CertificateGenerator from './MainPage/CertificateGenerator';
 import Assessments from './MainPage/Assessments'; 
 import MyCourses from './MainPage/MyCourses';
 import UploadMaterial from "./MainPage/instructor/UploadMaterial";
-import LiveClassForm from './MainPage/Instructor/LiveClassForm';
+import LiveClassForm from './MainPage/instructor/LiveClassForm';
 import InstructorStudents from './MainPage/instructor/InstructorStudents'
 import PaymentCancelled from "./payment/PaymentCancelled";
 import PaymentSuccess from "./payment/PaymentSuccess";
